@@ -11,7 +11,7 @@ mongoDB();
 
 app.use(
   cors({
-    origin: "http://localhost:3000",
+    origin: "https://mernstack-foodie-frontend.vercel.app",
     methods: ["GET", "POST", "PUT", "DELETE"],
     allowedHeaders: ["Content-Type", "Authorization"],
   })
